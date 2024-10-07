@@ -227,6 +227,6 @@ hr{
         flex-wrap: wrap;
     }
     #shop-list .form-container{
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
     }
 }
