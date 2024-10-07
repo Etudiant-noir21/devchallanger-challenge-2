@@ -1,0 +1,176 @@
+/* font family */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*,::after,::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: #f5f5f5;
+
+}
+ .body-container{
+    max-width: 1300px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 5px 30px 100px 5px rgba(17, 23, 41, 0.05);
+    padding: 30px;
+}
+#shop-list {
+    background-color: #00000033;
+    padding: 20px 30px;
+    width: 100%;
+}
+#shop-list .container .materiel-dispo{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+#shop-list img{
+    width: 150px;
+}
+.materiel-dispo .phone{
+    display: flex;
+    /* align-items: center; */
+    gap: 20px;
+}
+.materiel-dispo{
+    margin-top: 50px;
+}
+.materiel-dispo .phone .desc{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+}
+.materiel-dispo .phone .desc .object{
+    font-size: 18px;
+    font-weight: 600;
+}
+.prix-comm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
+    height: 100%;
+}
+#shop-list .form-container{
+    margin-top: 30px;
+    width: 100%;
+  display: flex;
+  gap: 10px;
+}
+#shop-list .form-container input{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+}
+ .coupon{
+    padding: 10px 20px;
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+} 
+.total-spend{
+    margin-top: 50px;
+}
+
+.total-spend p{
+    display: flex;
+    justify-content: space-between;
+    line-height: 2;
+    font-weight: 600;
+}
+.total-spend p span{
+    color: #6C727F;
+}
+/* la seconde section */
+#contact-form{
+    padding: 20px 50px;
+    width: 100%;
+}
+#contact-form h2{
+    margin-bottom: 20px;
+    
+}
+
+#contact-form .form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#contact-form .form2{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    margin-top: 30px;
+}
+#contact-form .form2 .pays label{
+    display: block;
+}
+#Contact-form .form input{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+    height: 70px;
+    font-size: 20px;
+}
+#contact-form .form2 select,input{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+    height: 70px;
+    font-size: 20px;
+    background-color: #D2D5DA;
+}
+#contact-form label{
+    font-size: 24px;font-weight: 600;
+    margin: 10px 0;
+}
+
+#contact-form button{
+    margin-top: 30px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    #shop-list{
+        width: 100%;
+    }
+    .body-container{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    #shop-list .container .materiel-dispo{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    #contact-form .form2{
+        flex-wrap: wrap;
+    }
+    #shop-list .form-container{
+        flex-wrap: wrap;
+    }
+}
