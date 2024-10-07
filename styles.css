@@ -10,9 +10,9 @@ body{
     background-image: url("imgs/background-image.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top top;
+    background-position: center center;
     max-width: 1280px;
-
+ margin: auto;
 
 }
  .body-container{
